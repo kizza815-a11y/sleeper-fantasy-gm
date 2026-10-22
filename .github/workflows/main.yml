@@ -1,0 +1,91 @@
+
+name: Daily Sleeper Data
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-sleeper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download Sleeper league data
+        env:
+          LEAGUE_ID: "1312908933546934272"
+        run: |
+          mkdir -p data
+
+          python3 - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.request
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          league_id = os.environ["LEAGUE_ID"]
+          base = "https://api.sleeper.app/v1"
+          output = Path("data")
+
+          endpoints = {
+              "league": f"/league/{league_id}",
+              "rosters": f"/league/{league_id}/rosters",
+              "users": f"/league/{league_id}/users",
+              "transactions": f"/league/{league_id}/transactions/7",
+              "matchups": f"/league/{league_id}/matchups/7",
+              "traded_picks": f"/league/{league_id}/traded_picks",
+              "state": "/state/nfl",
+          }
+
+          results = {}
+          errors = {}
+
+          for name, path in endpoints.items():
+              try:
+                  request = urllib.request.Request(
+                      base + path,
+                      headers={"User-Agent": "DrDoomSleeperGM/1.0"}
+                  )
+                  with urllib.request.urlopen(request, timeout=30) as response:
+                      results[name] = json.load(response)
+                  print(f"Retrieved {name}")
+              except Exception as exc:
+                  errors[name] = str(exc)
+                  print(f"Failed {name}: {exc}")
+              time.sleep(0.3)
+
+          if "rosters" not in results or "league" not in results:
+              raise RuntimeError(
+                  "Critical Sleeper data unavailable; refusing to publish stale snapshot"
+              )
+
+          results["snapshot_metadata"] = {
+              "retrieved_at_utc": datetime.now(timezone.utc).isoformat(),
+              "league_id": league_id,
+              "target_roster_id": 7,
+              "errors": errors,
+          }
+
+          (output / "latest.json").write_text(
+              json.dumps(results, indent=2),
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Save updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update daily Sleeper league data"
+            git push
+          fi
