@@ -39,7 +39,7 @@ jobs:
               "league": f"/league/{league_id}",
               "rosters": f"/league/{league_id}/rosters",
               "users": f"/league/{league_id}/users",
-              "transactions": f"/league/{league_id}/transactions/7",
+              **{f"transactions_week_{week}": f"/league/{league_id}/transactions/{week}" for week in range(1, 8)},
               "matchups": f"/league/{league_id}/matchups/7",
               "traded_picks": f"/league/{league_id}/traded_picks",
               "state": "/state/nfl",
