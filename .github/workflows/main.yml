@@ -35,17 +35,26 @@ jobs:
           base = "https://api.sleeper.app/v1"
           output = Path("data")
 
+          state_request = urllib.request.Request(
+              base + "/state/nfl",
+              headers={"User-Agent": "DrDoomSleeperGM/1.0"}
+          )
+          with urllib.request.urlopen(state_request, timeout=30) as response:
+              nfl_state = json.load(response)
+
+          current_week = int(nfl_state.get("week") or 1)
+          current_week = max(1, min(current_week, 18))
+
           endpoints = {
               "league": f"/league/{league_id}",
               "rosters": f"/league/{league_id}/rosters",
               "users": f"/league/{league_id}/users",
-              **{f"transactions_week_{week}": f"/league/{league_id}/transactions/{week}" for week in range(1, 8)},
-              "matchups": f"/league/{league_id}/matchups/7",
+              **{f"transactions_week_{week}": f"/league/{league_id}/transactions/{week}" for week in range(1, current_week + 1)},
+              "matchups": f"/league/{league_id}/matchups/{current_week}",
               "traded_picks": f"/league/{league_id}/traded_picks",
-              "state": "/state/nfl",
           }
 
-          results = {}
+          results = {"state": nfl_state}
           errors = {}
 
           for name, path in endpoints.items():
@@ -71,6 +80,7 @@ jobs:
               "retrieved_at_utc": datetime.now(timezone.utc).isoformat(),
               "league_id": league_id,
               "target_roster_id": 7,
+              "current_week": current_week,
               "errors": errors,
           }
 
