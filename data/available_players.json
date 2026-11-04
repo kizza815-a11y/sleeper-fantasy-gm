@@ -1,8 +1,8 @@
 {
   "league_id": "1312908933546934272",
-  "retrieved_at_utc": "2026-11-03T16:17:18.466019+00:00",
-  "rostered_player_count": 372,
-  "available_player_count": 2437,
+  "retrieved_at_utc": "2026-11-04T12:46:20.985662+00:00",
+  "rostered_player_count": 373,
+  "available_player_count": 2435,
   "note": "Unrostered in league; Sleeper waiver eligibility and claim timing may differ.",
   "players": [
     {
@@ -396,19 +396,6 @@
       "search_rank": 220
     },
     {
-      "player_id": "12467",
-      "name": "Jordan James",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "SF",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 222
-    },
-    {
       "player_id": "4131",
       "name": "Kenny Golladay",
       "position": "WR",
@@ -431,7 +418,7 @@
       "team": "KC",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 228
     },
     {
@@ -2992,7 +2979,7 @@
       "team": "DEN",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 378
     },
     {
@@ -3395,7 +3382,7 @@
       "team": "IND",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 394
     },
     {
@@ -4764,19 +4751,6 @@
       "search_rank": 446
     },
     {
-      "player_id": "8917",
-      "name": "KaVontae Turpin",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "DAL",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Out",
-      "search_rank": 446
-    },
-    {
       "player_id": "6379",
       "name": "Khari Blasingame",
       "position": "FB",
@@ -4826,6 +4800,19 @@
       "status": "Active",
       "active": true,
       "injury_status": null,
+      "search_rank": 447
+    },
+    {
+      "player_id": "8917",
+      "name": "KaVontae Turpin",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "DAL",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Questionable",
       "search_rank": 447
     },
     {
@@ -4959,6 +4946,19 @@
       "search_rank": 455
     },
     {
+      "player_id": "7568",
+      "name": "Brevin Jordan",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "HOU",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 455
+    },
+    {
       "player_id": "2460",
       "name": "C.J. Uzomah",
       "position": "TE",
@@ -5031,19 +5031,6 @@
         "WR"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 457
-    },
-    {
-      "player_id": "7568",
-      "name": "Brevin Jordan",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "HOU",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -5618,7 +5605,7 @@
       "team": "MIA",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 484
     },
     {
@@ -6320,7 +6307,7 @@
       "team": "MIN",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 503
     },
     {
@@ -6519,6 +6506,19 @@
       "search_rank": 511
     },
     {
+      "player_id": "12969",
+      "name": "Lan Larison",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "NE",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 512
+    },
+    {
       "player_id": "13249",
       "name": "Thomas Gordon",
       "position": "TE",
@@ -6619,7 +6619,7 @@
       "team": "KC",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 515
     },
     {
@@ -6697,7 +6697,7 @@
       "team": "NO",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 517
     },
     {
@@ -6762,7 +6762,7 @@
       "team": "NE",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 520
     },
     {
@@ -7214,7 +7214,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": "SEA",
+      "team": "WAS",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -7607,7 +7607,7 @@
       "team": "IND",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 547
     },
     {
@@ -7724,7 +7724,7 @@
       "team": "SEA",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "search_rank": 549
     },
     {
@@ -7787,6 +7787,19 @@
         "TE"
       ],
       "team": "JAX",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 550
+    },
+    {
+      "player_id": "12851",
+      "name": "Rivaldo Fairweather",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "ARI",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -7942,7 +7955,7 @@
       "fantasy_positions": [
         "WR"
       ],
-      "team": null,
+      "team": "CLE",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -8075,7 +8088,7 @@
       "team": "CHI",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 557
     },
     {
@@ -8608,7 +8621,7 @@
       "team": "IND",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "search_rank": 573
     },
     {
@@ -8634,7 +8647,7 @@
       "team": "NYJ",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 573
     },
     {
@@ -8777,7 +8790,7 @@
       "team": "CAR",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 576
     },
     {
@@ -9271,7 +9284,7 @@
       "team": "PHI",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "search_rank": 596
     },
     {
@@ -9336,7 +9349,7 @@
       "team": "LV",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 597
     },
     {
@@ -9609,7 +9622,7 @@
       "team": "CLE",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 604
     },
     {
@@ -9804,7 +9817,7 @@
       "team": "CIN",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 608
     },
     {
@@ -9990,6 +10003,19 @@
       "search_rank": 612
     },
     {
+      "player_id": "13318",
+      "name": "Noah Thomas",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "CIN",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 612
+    },
+    {
       "player_id": "8227",
       "name": "Teagan Quitoriano",
       "position": "TE",
@@ -10029,13 +10055,13 @@
       "search_rank": 613
     },
     {
-      "player_id": "13318",
-      "name": "Noah Thomas",
+      "player_id": "11421",
+      "name": "Ryan Miller",
       "position": "WR",
       "fantasy_positions": [
         "WR"
       ],
-      "team": "CIN",
+      "team": "NE",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -10075,19 +10101,6 @@
         "TE"
       ],
       "team": "BUF",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 614
-    },
-    {
-      "player_id": "11421",
-      "name": "Ryan Miller",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NE",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -10893,7 +10906,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": null,
+      "team": "DEN",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -11078,7 +11091,7 @@
       "team": "DEN",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 636
     },
     {
@@ -11130,7 +11143,7 @@
       "team": "WAS",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 637
     },
     {
@@ -11520,7 +11533,7 @@
       "team": "ARI",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 645
     },
     {
@@ -11741,7 +11754,7 @@
       "team": "SF",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 649
     },
     {
@@ -12040,7 +12053,7 @@
       "team": "NYG",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 655
     },
     {
@@ -12131,7 +12144,7 @@
       "team": "BAL",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 656
     },
     {
@@ -12183,7 +12196,7 @@
       "team": "ATL",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 657
     },
     {
@@ -12443,7 +12456,7 @@
       "team": "CLE",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "search_rank": 663
     },
     {
@@ -12746,19 +12759,6 @@
       "search_rank": 665
     },
     {
-      "player_id": "13315",
-      "name": "Dean Connors",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "LAR",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Questionable",
-      "search_rank": 666
-    },
-    {
       "player_id": "8160",
       "name": "Kenny Pickett",
       "position": "QB",
@@ -12820,7 +12820,7 @@
       "team": "LAC",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 666
     },
     {
@@ -12976,7 +12976,7 @@
       "team": "DAL",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "search_rank": 669
     },
     {
@@ -13587,7 +13587,7 @@
       "team": "DET",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 678
     },
     {
@@ -13675,7 +13675,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": "BAL",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -13808,7 +13808,7 @@
       "team": "MIA",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 682
     },
     {
@@ -13916,19 +13916,6 @@
       "search_rank": 683
     },
     {
-      "player_id": "12851",
-      "name": "Rivaldo Fairweather",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 683
-    },
-    {
       "player_id": "10221",
       "name": "Ronnie Bell",
       "position": "WR",
@@ -13990,7 +13977,7 @@
       "team": "NO",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 684
     },
     {
@@ -14029,7 +14016,7 @@
       "team": "ARI",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 686
     },
     {
@@ -14146,7 +14133,7 @@
       "team": "JAX",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 688
     },
     {
@@ -14159,7 +14146,7 @@
       "team": "ATL",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 688
     },
     {
@@ -14393,7 +14380,7 @@
       "team": "SEA",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "search_rank": 691
     },
     {
@@ -14458,7 +14445,7 @@
       "team": "CAR",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 692
     },
     {
@@ -14640,7 +14627,7 @@
       "team": "GB",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 695
     },
     {
@@ -14768,19 +14755,6 @@
         "RB"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 697
-    },
-    {
-      "player_id": "8147",
-      "name": "John Metchie III",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "CAR",
       "status": "Active",
       "active": true,
       "injury_status": null,
