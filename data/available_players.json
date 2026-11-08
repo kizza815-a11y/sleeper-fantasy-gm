@@ -1,8 +1,8 @@
 {
   "league_id": "1312908933546934272",
-  "retrieved_at_utc": "2026-11-07T12:35:21.799021+00:00",
+  "retrieved_at_utc": "2026-11-08T12:33:36.628550+00:00",
   "rostered_player_count": 369,
-  "available_player_count": 2440,
+  "available_player_count": 2442,
   "note": "Unrostered in league; Sleeper waiver eligibility and claim timing may differ.",
   "players": [
     {
@@ -238,6 +238,19 @@
       "active": true,
       "injury_status": null,
       "search_rank": 176
+    },
+    {
+      "player_id": "9757",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "NO",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 180
     },
     {
       "player_id": "2309",
@@ -2294,19 +2307,6 @@
       "search_rank": 347
     },
     {
-      "player_id": "13743",
-      "name": "Joseph Manjack IV",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NYJ",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 350
-    },
-    {
       "player_id": "6450",
       "name": "David Blough",
       "position": "QB",
@@ -2357,6 +2357,19 @@
       "active": true,
       "injury_status": null,
       "search_rank": 351
+    },
+    {
+      "player_id": "13743",
+      "name": "Joseph Manjack IV",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "NYJ",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 352
     },
     {
       "player_id": "12033",
@@ -6116,6 +6129,32 @@
       "search_rank": 497
     },
     {
+      "player_id": "12511",
+      "name": "Will Howard",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "PIT",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 497
+    },
+    {
+      "player_id": "7559",
+      "name": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "CAR",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 498
+    },
+    {
       "player_id": "12231",
       "name": "JJ Laap",
       "position": "WR",
@@ -6140,32 +6179,6 @@
       "active": true,
       "injury_status": "Questionable",
       "search_rank": 498
-    },
-    {
-      "player_id": "7559",
-      "name": "Ihmir Smith-Marsette",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "CAR",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 499
-    },
-    {
-      "player_id": "12511",
-      "name": "Will Howard",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "PIT",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Out",
-      "search_rank": 499
     },
     {
       "player_id": "10230",
@@ -6309,6 +6322,19 @@
       "active": true,
       "injury_status": null,
       "search_rank": 502
+    },
+    {
+      "player_id": "12889",
+      "name": "Beaux Collins",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "ATL",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Questionable",
+      "search_rank": 503
     },
     {
       "player_id": "11081",
@@ -7650,19 +7676,6 @@
       "search_rank": 548
     },
     {
-      "player_id": "12851",
-      "name": "Rivaldo Fairweather",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "ARI",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 548
-    },
-    {
       "player_id": "5122",
       "name": "Boston Scott",
       "position": "RB",
@@ -7826,6 +7839,19 @@
         "TE"
       ],
       "team": "JAX",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 550
+    },
+    {
+      "player_id": "12851",
+      "name": "Rivaldo Fairweather",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "ARI",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -8228,7 +8254,7 @@
       "fantasy_positions": [
         "WR"
       ],
-      "team": "LV",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -9489,7 +9515,7 @@
       "fantasy_positions": [
         "TE"
       ],
-      "team": null,
+      "team": "CLE",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -10276,6 +10302,19 @@
       "search_rank": 617
     },
     {
+      "player_id": "8195",
+      "name": "Ronnie Rivers",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "LAR",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 617
+    },
+    {
       "player_id": "12773",
       "name": "DJ Uiagalelei",
       "position": "QB",
@@ -10894,19 +10933,6 @@
         "QB"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 633
-    },
-    {
-      "player_id": "3161",
-      "name": "Carson Wentz",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "MIN",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -12076,7 +12102,7 @@
       "fantasy_positions": [
         "QB"
       ],
-      "team": null,
+      "team": "NYG",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -13324,7 +13350,7 @@
       "fantasy_positions": [
         "QB"
       ],
-      "team": "BAL",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
