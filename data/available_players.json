@@ -1,8 +1,8 @@
 {
   "league_id": "1312908933546934272",
-  "retrieved_at_utc": "2026-11-11T12:51:46.763045+00:00",
-  "rostered_player_count": 374,
-  "available_player_count": 2435,
+  "retrieved_at_utc": "2026-11-12T12:53:56.526530+00:00",
+  "rostered_player_count": 375,
+  "available_player_count": 2434,
   "note": "Unrostered in league; Sleeper waiver eligibility and claim timing may differ.",
   "players": [
     {
@@ -184,7 +184,7 @@
       "team": "LAR",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 136
     },
     {
@@ -272,7 +272,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": "NO",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -1078,7 +1078,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": "ARI",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -2251,7 +2251,7 @@
       "team": "NE",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 344
     },
     {
@@ -3340,7 +3340,7 @@
       "fantasy_positions": [
         "TE"
       ],
-      "team": "CLE",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -3386,19 +3386,6 @@
       "search_rank": 393
     },
     {
-      "player_id": "13303",
-      "name": "Cade Klubnik",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "NYJ",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 394
-    },
-    {
       "player_id": "538",
       "name": "Emmanuel Sanders",
       "position": "WR",
@@ -3436,6 +3423,19 @@
       "active": true,
       "injury_status": null,
       "search_rank": 394
+    },
+    {
+      "player_id": "13303",
+      "name": "Cade Klubnik",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "NYJ",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 395
     },
     {
       "player_id": "8438",
@@ -3542,19 +3542,6 @@
       "search_rank": 399
     },
     {
-      "player_id": "7527",
-      "name": "Mac Jones",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "SF",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 399
-    },
-    {
       "player_id": "4226",
       "name": "Alex Armah",
       "position": "FB",
@@ -3562,6 +3549,19 @@
         "RB"
       ],
       "team": null,
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 400
+    },
+    {
+      "player_id": "7527",
+      "name": "Mac Jones",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "SF",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -3691,7 +3691,7 @@
       "fantasy_positions": [
         "WR"
       ],
-      "team": "TB",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -4264,19 +4264,6 @@
         "RB"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 427
-    },
-    {
-      "player_id": "7812",
-      "name": "Simi Fehoko",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "ARI",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -5033,7 +5020,7 @@
       "team": "HOU",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 456
     },
     {
@@ -5282,6 +5269,19 @@
       "active": true,
       "injury_status": null,
       "search_rank": 468
+    },
+    {
+      "player_id": "2306",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "NYG",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 469
     },
     {
       "player_id": "11282",
@@ -5940,7 +5940,7 @@
       "fantasy_positions": [
         "TE"
       ],
-      "team": "LAC",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -6103,6 +6103,32 @@
       "search_rank": 497
     },
     {
+      "player_id": "12511",
+      "name": "Will Howard",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "PIT",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 497
+    },
+    {
+      "player_id": "7559",
+      "name": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "CAR",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 498
+    },
+    {
       "player_id": "12231",
       "name": "JJ Laap",
       "position": "WR",
@@ -6122,37 +6148,11 @@
       "fantasy_positions": [
         "WR"
       ],
-      "team": "KC",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
       "search_rank": 498
-    },
-    {
-      "player_id": "7559",
-      "name": "Ihmir Smith-Marsette",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "CAR",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Out",
-      "search_rank": 499
-    },
-    {
-      "player_id": "12511",
-      "name": "Will Howard",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "PIT",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 499
     },
     {
       "player_id": "10230",
@@ -6642,7 +6642,7 @@
       "fantasy_positions": [
         "TE"
       ],
-      "team": "LAC",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -7215,6 +7215,19 @@
         "WR"
       ],
       "team": "KC",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 534
+    },
+    {
+      "player_id": "13418",
+      "name": "Robert Henry Jr.",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "WAS",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -7799,7 +7812,7 @@
       "fantasy_positions": [
         "TE"
       ],
-      "team": "ARI",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -8599,19 +8612,6 @@
       "search_rank": 572
     },
     {
-      "player_id": "11762",
-      "name": "Anthony Gould",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "IND",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 573
-    },
-    {
       "player_id": "6955",
       "name": "James Robinson",
       "position": "RB",
@@ -9232,7 +9232,7 @@
       "team": "PIT",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 593
     },
     {
@@ -9359,7 +9359,7 @@
       "fantasy_positions": [
         "TE"
       ],
-      "team": null,
+      "team": "NE",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -9886,19 +9886,6 @@
       "search_rank": 610
     },
     {
-      "player_id": "13318",
-      "name": "Noah Thomas",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "CIN",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 610
-    },
-    {
       "player_id": "13437",
       "name": "Noah Whittington",
       "position": "RB",
@@ -9951,6 +9938,19 @@
       "search_rank": 611
     },
     {
+      "player_id": "13318",
+      "name": "Noah Thomas",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "CIN",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 611
+    },
+    {
       "player_id": "6895",
       "name": "Quintez Cephus",
       "position": "WR",
@@ -9958,19 +9958,6 @@
         "WR"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 611
-    },
-    {
-      "player_id": "11421",
-      "name": "Ryan Miller",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NE",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -10010,6 +9997,19 @@
         "QB"
       ],
       "team": null,
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 612
+    },
+    {
+      "player_id": "11421",
+      "name": "Ryan Miller",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "NE",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -10701,7 +10701,7 @@
       "team": "CLE",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 628
     },
     {
@@ -10896,7 +10896,7 @@
       "team": "MIN",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 633
     },
     {
@@ -11494,7 +11494,7 @@
       "team": "DET",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 644
     },
     {
@@ -12102,7 +12102,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": "TB",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -12129,19 +12129,6 @@
         "WR"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 656
-    },
-    {
-      "player_id": "13394",
-      "name": "Josh Cameron",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "JAX",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -12378,7 +12365,7 @@
       "team": "LAR",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 661
     },
     {
@@ -12976,7 +12963,7 @@
       "team": "DAL",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 669
     },
     {
@@ -13574,7 +13561,7 @@
       "team": "WAS",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "search_rank": 678
     },
     {
@@ -13610,7 +13597,7 @@
       "fantasy_positions": [
         "TE"
       ],
-      "team": null,
+      "team": "DET",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -20695,7 +20682,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": null,
+      "team": "MIN",
       "status": "Active",
       "active": true,
       "injury_status": null,
