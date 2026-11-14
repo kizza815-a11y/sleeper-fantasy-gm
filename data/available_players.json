@@ -1,6 +1,6 @@
 {
   "league_id": "1312908933546934272",
-  "retrieved_at_utc": "2026-11-13T12:51:48.631819+00:00",
+  "retrieved_at_utc": "2026-11-14T12:33:58.422888+00:00",
   "rostered_player_count": 374,
   "available_player_count": 2435,
   "note": "Unrostered in league; Sleeper waiver eligibility and claim timing may differ.",
@@ -184,7 +184,7 @@
       "team": "LAR",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 136
     },
     {
@@ -1436,19 +1436,6 @@
       "search_rank": 300
     },
     {
-      "player_id": "13310",
-      "name": "Miller Moss",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "CHI",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 301
-    },
-    {
       "player_id": "8707",
       "name": "Tayon Fleet-Davis",
       "position": "RB",
@@ -1469,6 +1456,19 @@
         "WR"
       ],
       "team": null,
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 302
+    },
+    {
+      "player_id": "13310",
+      "name": "Miller Moss",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "CHI",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -2307,19 +2307,6 @@
       "search_rank": 346
     },
     {
-      "player_id": "13743",
-      "name": "Joseph Manjack IV",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NYJ",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 349
-    },
-    {
       "player_id": "6450",
       "name": "David Blough",
       "position": "QB",
@@ -2327,6 +2314,19 @@
         "QB"
       ],
       "team": null,
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 351
+    },
+    {
+      "player_id": "13743",
+      "name": "Joseph Manjack IV",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "NYJ",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -3516,19 +3516,6 @@
       "search_rank": 398
     },
     {
-      "player_id": "7527",
-      "name": "Mac Jones",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "SF",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 398
-    },
-    {
       "player_id": "11053",
       "name": "Antoine Green",
       "position": "WR",
@@ -3562,6 +3549,19 @@
         "RB"
       ],
       "team": null,
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 400
+    },
+    {
+      "player_id": "7527",
+      "name": "Mac Jones",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "SF",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -4786,7 +4786,7 @@
       "team": "DAL",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 446
     },
     {
@@ -4933,19 +4933,6 @@
       "search_rank": 454
     },
     {
-      "player_id": "7568",
-      "name": "Brevin Jordan",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "HOU",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Questionable",
-      "search_rank": 454
-    },
-    {
       "player_id": "12090",
       "name": "Corey Crooms",
       "position": "WR",
@@ -5022,6 +5009,19 @@
       "active": true,
       "injury_status": null,
       "search_rank": 455
+    },
+    {
+      "player_id": "7568",
+      "name": "Brevin Jordan",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "HOU",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 456
     },
     {
       "player_id": "1110",
@@ -5557,19 +5557,6 @@
       "search_rank": 482
     },
     {
-      "player_id": "13400",
-      "name": "Justin Joly",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "MIA",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 482
-    },
-    {
       "player_id": "4055",
       "name": "O.J. Howard",
       "position": "TE",
@@ -5633,6 +5620,19 @@
       "active": true,
       "injury_status": null,
       "search_rank": 483
+    },
+    {
+      "player_id": "13400",
+      "name": "Justin Joly",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "MIA",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 484
     },
     {
       "player_id": "12434",
@@ -6025,6 +6025,19 @@
       "search_rank": 495
     },
     {
+      "player_id": "12510",
+      "name": "Jalen Milroe",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "SEA",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 495
+    },
+    {
       "player_id": "7162",
       "name": "Ryan Becker",
       "position": "TE",
@@ -6087,19 +6100,6 @@
       "status": "Active",
       "active": true,
       "injury_status": "Questionable",
-      "search_rank": 497
-    },
-    {
-      "player_id": "12510",
-      "name": "Jalen Milroe",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "SEA",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
       "search_rank": 497
     },
     {
@@ -6606,7 +6606,7 @@
       "team": "MIA",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 514
     },
     {
@@ -7074,7 +7074,7 @@
       "team": "IND",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "search_rank": 528
     },
     {
@@ -8210,7 +8210,7 @@
     },
     {
       "player_id": "2334",
-      "name": "Phillip Dorsett II",
+      "name": "Phillip Dorsett",
       "position": "WR",
       "fantasy_positions": [
         "WR"
@@ -10688,7 +10688,7 @@
       "team": "CLE",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "search_rank": 628
     },
     {
@@ -10883,7 +10883,7 @@
       "team": "MIN",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 633
     },
     {
@@ -13249,7 +13249,7 @@
       "team": "DAL",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "search_rank": 673
     },
     {
@@ -13643,19 +13643,6 @@
       "search_rank": 678
     },
     {
-      "player_id": "9227",
-      "name": "Israel Abanikanda",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "DAL",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 679
-    },
-    {
       "player_id": "13403",
       "name": "Jam Miller",
       "position": "RB",
@@ -13747,6 +13734,19 @@
       "search_rank": 681
     },
     {
+      "player_id": "10235",
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "CHI",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 681
+    },
+    {
       "player_id": "8849",
       "name": "Tanner Conner",
       "position": "TE",
@@ -13769,7 +13769,7 @@
       "team": "IND",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 681
     },
     {
@@ -13821,7 +13821,7 @@
       "team": "MIA",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "search_rank": 682
     },
     {
@@ -14003,7 +14003,7 @@
       "team": "GB",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "search_rank": 685
     },
     {
