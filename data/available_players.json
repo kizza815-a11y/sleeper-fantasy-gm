@@ -1,8 +1,8 @@
 {
   "league_id": "1312908933546934272",
-  "retrieved_at_utc": "2026-11-15T12:36:08.720062+00:00",
-  "rostered_player_count": 373,
-  "available_player_count": 2436,
+  "retrieved_at_utc": "2026-11-16T14:48:40.595457+00:00",
+  "rostered_player_count": 374,
+  "available_player_count": 2435,
   "note": "Unrostered in league; Sleeper waiver eligibility and claim timing may differ.",
   "players": [
     {
@@ -173,19 +173,6 @@
       "active": true,
       "injury_status": null,
       "search_rank": 131
-    },
-    {
-      "player_id": "6865",
-      "name": "Colby Parkinson",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "LAR",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 136
     },
     {
       "player_id": "1149",
@@ -444,7 +431,7 @@
       "team": "KC",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 228
     },
     {
@@ -613,7 +600,7 @@
       "team": "NYJ",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 243
     },
     {
@@ -636,7 +623,7 @@
       "fantasy_positions": [
         "WR"
       ],
-      "team": "GB",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -2251,7 +2238,7 @@
       "team": "NE",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 344
     },
     {
@@ -2615,7 +2602,7 @@
       "team": "PIT",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 362
     },
     {
@@ -4513,7 +4500,7 @@
       "team": "KC",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 435
     },
     {
@@ -5098,7 +5085,7 @@
       "team": "ARI",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 459
     },
     {
@@ -5644,7 +5631,7 @@
       "team": "MIA",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 484
     },
     {
@@ -6086,7 +6073,7 @@
       "team": "MIN",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 496
     },
     {
@@ -6116,6 +6103,32 @@
       "search_rank": 497
     },
     {
+      "player_id": "12511",
+      "name": "Will Howard",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "PIT",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 497
+    },
+    {
+      "player_id": "7559",
+      "name": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "CAR",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 498
+    },
+    {
       "player_id": "12231",
       "name": "JJ Laap",
       "position": "WR",
@@ -6140,32 +6153,6 @@
       "active": true,
       "injury_status": null,
       "search_rank": 498
-    },
-    {
-      "player_id": "12511",
-      "name": "Will Howard",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "PIT",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 498
-    },
-    {
-      "player_id": "7559",
-      "name": "Ihmir Smith-Marsette",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "CAR",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Out",
-      "search_rank": 499
     },
     {
       "player_id": "10230",
@@ -6346,7 +6333,7 @@
       "team": "MIN",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 503
     },
     {
@@ -6645,7 +6632,7 @@
       "team": "KC",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 515
     },
     {
@@ -6788,7 +6775,7 @@
       "team": "NE",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 520
     },
     {
@@ -7607,7 +7594,7 @@
       "team": "IND",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 547
     },
     {
@@ -7657,19 +7644,6 @@
         "QB"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 549
-    },
-    {
-      "player_id": "4314",
-      "name": "Johnny Mundt",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "PHI",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -7774,6 +7748,19 @@
         "WR"
       ],
       "team": "SEA",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 550
+    },
+    {
+      "player_id": "4314",
+      "name": "Johnny Mundt",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "PHI",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -8621,7 +8608,7 @@
       "team": "NYJ",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 573
     },
     {
@@ -8764,7 +8751,7 @@
       "team": "CAR",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 576
     },
     {
@@ -8803,7 +8790,7 @@
       "team": "ARI",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 577
     },
     {
@@ -9011,7 +8998,7 @@
       "team": "SF",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 587
     },
     {
@@ -9622,7 +9609,7 @@
       "team": "CLE",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 604
     },
     {
@@ -10623,7 +10610,7 @@
       "team": "NE",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 625
     },
     {
@@ -10807,6 +10794,19 @@
       "active": true,
       "injury_status": null,
       "search_rank": 630
+    },
+    {
+      "player_id": "8116",
+      "name": "Pierre Strong Jr.",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "GB",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 631
     },
     {
       "player_id": "12883",
@@ -11013,7 +11013,7 @@
       "team": "BUF",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 634
     },
     {
@@ -11065,7 +11065,7 @@
       "team": "GB",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 635
     },
     {
@@ -11754,7 +11754,7 @@
       "team": "SF",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 649
     },
     {
@@ -12170,7 +12170,7 @@
       "team": "ATL",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 657
     },
     {
@@ -12365,7 +12365,7 @@
       "team": "LAR",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": null,
       "search_rank": 661
     },
     {
@@ -13571,7 +13571,7 @@
       "fantasy_positions": [
         "WR"
       ],
-      "team": "HOU",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -13977,7 +13977,7 @@
       "team": "NO",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 684
     },
     {
@@ -14133,7 +14133,7 @@
       "team": "JAX",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 688
     },
     {
@@ -14146,7 +14146,7 @@
       "team": "ATL",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 688
     },
     {
@@ -14222,19 +14222,6 @@
         "QB"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 689
-    },
-    {
-      "player_id": "7608",
-      "name": "Khalil Herbert",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "ATL",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -14432,7 +14419,7 @@
       "team": "CAR",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 692
     },
     {
