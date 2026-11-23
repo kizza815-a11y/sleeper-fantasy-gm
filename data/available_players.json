@@ -1,6 +1,6 @@
 {
   "league_id": "1312908933546934272",
-  "retrieved_at_utc": "2026-11-23T20:33:12.392540+00:00",
+  "retrieved_at_utc": "2026-11-23T23:22:17.418997+00:00",
   "rostered_player_count": 369,
   "available_player_count": 2439,
   "note": "Unrostered in league; Sleeper waiver eligibility and claim timing may differ.",
@@ -8527,7 +8527,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": null,
+      "team": "IND",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -13613,7 +13613,7 @@
       "team": "PHI",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 677
     },
     {
@@ -14952,7 +14952,7 @@
       "team": "CIN",
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "search_rank": 699
     },
     {

@@ -1,6 +1,6 @@
 {
   "league_id": "1312908933546934272",
-  "retrieved_at_utc": "2026-11-23T20:33:12.385070+00:00",
+  "retrieved_at_utc": "2026-11-23T23:22:17.409183+00:00",
   "rosters": [
     {
       "roster_id": 1,
@@ -884,7 +884,7 @@
           "name": "George Holani",
           "position": "RB",
           "team": "SEA",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "4034",
@@ -3179,7 +3179,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6786",
@@ -3369,7 +3369,7 @@
           "name": "Will Shipley",
           "position": "RB",
           "team": "PHI",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11581",
@@ -3595,7 +3595,7 @@
           "name": "Will Shipley",
           "position": "RB",
           "team": "PHI",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6039",
@@ -3790,7 +3790,7 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
-          "injury_status": "IR"
+          "injury_status": null
         },
         {
           "player_id": "12718",
