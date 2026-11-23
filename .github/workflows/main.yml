@@ -116,6 +116,44 @@ jobs:
               player_index = json.loads(player_index_path.read_text(encoding="utf-8"))
               print(f"Using cached player directory: {exc}")
 
+          # Save a small, readable roster snapshot for trade and keeper analysis.
+          users_by_id = {
+              str(user.get("user_id")): user
+              for user in results.get("users", [])
+          }
+          def named_player(player_id):
+              player_id = str(player_id)
+              info = player_index.get(player_id, {})
+              return {"player_id": player_id,
+                      "name": info.get("name") or f"Unknown ({player_id})",
+                      "position": info.get("position"),
+                      "team": info.get("team"),
+                      "injury_status": info.get("injury_status")}
+
+          named_rosters = []
+          for roster in results["rosters"]:
+              user = users_by_id.get(str(roster.get("owner_id")), {})
+              named_rosters.append({
+                  "roster_id": roster.get("roster_id"),
+                  "owner": user.get("display_name"),
+                  "team_name": (user.get("metadata") or {}).get("team_name"),
+                  "wins": (roster.get("settings") or {}).get("wins"),
+                  "losses": (roster.get("settings") or {}).get("losses"),
+                  "players": [named_player(pid) for pid in roster.get("players") or []],
+                  "starters": [named_player(pid) for pid in roster.get("starters") or []
+                               if pid != "0"],
+                  "reserve": [named_player(pid) for pid in roster.get("reserve") or []],
+                  "taxi": [named_player(pid) for pid in roster.get("taxi") or []],
+              })
+          (output / "rosters_named.json").write_text(
+              json.dumps({
+                  "league_id": league_id,
+                  "retrieved_at_utc": datetime.now(timezone.utc).isoformat(),
+                  "rosters": named_rosters
+              }, indent=2), encoding="utf-8"
+          )
+          print(f"Saved {len(named_rosters)} named team rosters")
+
           # A player is unavailable if on any league roster, including IR/taxi.
           rostered_ids = {
               str(player_id)
@@ -167,7 +205,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/player_directory.json data/available_players.json
+          git add data/latest.json data/player_directory.json data/available_players.json data/rosters_named.json
           if ! git diff --cached --quiet; then
             git commit -m "Update daily Sleeper league data"
             git push
