@@ -1,8 +1,8 @@
 {
   "league_id": "1312908933546934272",
-  "retrieved_at_utc": "2026-11-23T23:22:17.418997+00:00",
-  "rostered_player_count": 369,
-  "available_player_count": 2439,
+  "retrieved_at_utc": "2026-11-24T21:54:22.899258+00:00",
+  "rostered_player_count": 366,
+  "available_player_count": 2442,
   "note": "Unrostered in league; Sleeper waiver eligibility and claim timing may differ.",
   "players": [
     {
@@ -446,19 +446,6 @@
       "active": true,
       "injury_status": null,
       "search_rank": 223
-    },
-    {
-      "player_id": "11273",
-      "name": "Ben VanSumeren",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "KC",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Questionable",
-      "search_rank": 228
     },
     {
       "player_id": "3199",
@@ -1338,7 +1325,7 @@
       "fantasy_positions": [
         "QB"
       ],
-      "team": "CHI",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -1510,7 +1497,7 @@
       "team": "CIN",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 303
     },
     {
@@ -2356,7 +2343,7 @@
       "status": "Active",
       "active": true,
       "injury_status": null,
-      "search_rank": 349
+      "search_rank": 347
     },
     {
       "player_id": "12374",
@@ -3243,19 +3230,6 @@
       "search_rank": 386
     },
     {
-      "player_id": "4443",
-      "name": "Pharaoh Brown",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "IND",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 386
-    },
-    {
       "player_id": "8175",
       "name": "Reggie Roberson",
       "position": "WR",
@@ -3341,6 +3315,19 @@
         "TE"
       ],
       "team": null,
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 388
+    },
+    {
+      "player_id": "4443",
+      "name": "Pharaoh Brown",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "IND",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -3568,6 +3555,19 @@
       "search_rank": 400
     },
     {
+      "player_id": "7527",
+      "name": "Mac Jones",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "SF",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 401
+    },
+    {
       "player_id": "2320",
       "name": "Melvin Gordon",
       "position": "RB",
@@ -3627,19 +3627,6 @@
         "WR"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 403
-    },
-    {
-      "player_id": "7527",
-      "name": "Mac Jones",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "SF",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -4745,6 +4732,19 @@
         "RB"
       ],
       "team": null,
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 444
+    },
+    {
+      "player_id": "2078",
+      "name": "Odell Beckham Jr.",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "MIN",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -6168,6 +6168,32 @@
       "search_rank": 497
     },
     {
+      "player_id": "12775",
+      "name": "Max Brosmer",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "MIN",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 497
+    },
+    {
+      "player_id": "12511",
+      "name": "Will Howard",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "PIT",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 497
+    },
+    {
       "player_id": "7559",
       "name": "Ihmir Smith-Marsette",
       "position": "WR",
@@ -6207,19 +6233,6 @@
       "search_rank": 498
     },
     {
-      "player_id": "12775",
-      "name": "Max Brosmer",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "MIN",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Out",
-      "search_rank": 499
-    },
-    {
       "player_id": "13705",
       "name": "Ty Pezza",
       "position": "TE",
@@ -6230,19 +6243,6 @@
       "status": "Active",
       "active": true,
       "injury_status": null,
-      "search_rank": 499
-    },
-    {
-      "player_id": "12511",
-      "name": "Will Howard",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "PIT",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Out",
       "search_rank": 499
     },
     {
@@ -7273,6 +7273,19 @@
       "search_rank": 534
     },
     {
+      "player_id": "13418",
+      "name": "Robert Henry Jr.",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "WAS",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 534
+    },
+    {
       "player_id": "8250",
       "name": "Tay Martin",
       "position": "WR",
@@ -7611,6 +7624,19 @@
       "search_rank": 545
     },
     {
+      "player_id": "8583",
+      "name": "Stone Smartt",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "NO",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Out",
+      "search_rank": 545
+    },
+    {
       "player_id": "4089",
       "name": "Gerald Everett",
       "position": "TE",
@@ -7644,19 +7670,6 @@
         "QB"
       ],
       "team": "IND",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Out",
-      "search_rank": 547
-    },
-    {
-      "player_id": "8583",
-      "name": "Stone Smartt",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "NO",
       "status": "Active",
       "active": true,
       "injury_status": "Out",
@@ -7722,19 +7735,6 @@
         "QB"
       ],
       "team": null,
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 549
-    },
-    {
-      "player_id": "4314",
-      "name": "Johnny Mundt",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "PHI",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -7839,6 +7839,19 @@
         "WR"
       ],
       "team": "SEA",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 550
+    },
+    {
+      "player_id": "4314",
+      "name": "Johnny Mundt",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "PHI",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -9054,6 +9067,19 @@
       "search_rank": 584
     },
     {
+      "player_id": "6964",
+      "name": "Sean McKeon",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "IND",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 584
+    },
+    {
       "player_id": "7552",
       "name": "Blake Proehl",
       "position": "WR",
@@ -9229,10 +9255,10 @@
       "fantasy_positions": [
         "QB"
       ],
-      "team": "BAL",
+      "team": null,
       "status": "Active",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": null,
       "search_rank": 591
     },
     {
@@ -9245,7 +9271,7 @@
       "team": "PIT",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "search_rank": 592
     },
     {
@@ -9535,6 +9561,19 @@
       "search_rank": 599
     },
     {
+      "player_id": "6037",
+      "name": "Brett Rypien",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "LV",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 600
+    },
+    {
       "player_id": "13580",
       "name": "Carsen Ryan",
       "position": "TE",
@@ -9598,19 +9637,6 @@
       "active": true,
       "injury_status": null,
       "search_rank": 600
-    },
-    {
-      "player_id": "6037",
-      "name": "Brett Rypien",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "LV",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "search_rank": 601
     },
     {
       "player_id": "13770",
@@ -9854,6 +9880,19 @@
         "WR"
       ],
       "team": null,
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "search_rank": 608
+    },
+    {
+      "player_id": "12494",
+      "name": "Kyle McCord",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "MIA",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -11127,7 +11166,7 @@
       "fantasy_positions": [
         "QB"
       ],
-      "team": "BUF",
+      "team": "IND",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -11234,7 +11273,7 @@
       "team": "WAS",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Out",
       "search_rank": 637
     },
     {
@@ -11335,7 +11374,7 @@
       "fantasy_positions": [
         "RB"
       ],
-      "team": "KC",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -11634,7 +11673,7 @@
       "fantasy_positions": [
         "WR"
       ],
-      "team": null,
+      "team": "PIT",
       "status": "Active",
       "active": true,
       "injury_status": null,
@@ -14949,7 +14988,7 @@
       "fantasy_positions": [
         "TE"
       ],
-      "team": "CIN",
+      "team": null,
       "status": "Active",
       "active": true,
       "injury_status": "Questionable",
